@@ -1,0 +1,18 @@
+name: KeepInventory
+author: RedCraftPE
+version: 1.0.0
+api: 3.0.0, 4.0.0
+main: RedCraftPE\Main
+commands:
+  keepinventory:
+    description: The main command for KeepInventory!
+    usage: /ki <subcommand>
+    aliases: [ki, keepinv, kinv]
+permissions:
+  keepinventory.*
+    default: op
+    children:
+      keepinventory.toggle:
+        default: op
+        description: With this permission players can toggle keep inventory on or off in the server.
+# Probably will do more later. But I'm in school rn.
