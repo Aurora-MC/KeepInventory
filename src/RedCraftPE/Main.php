@@ -46,7 +46,7 @@ class Main extends PluginBase implements Listener {
           
             case "toggle":
               
-              if ($sender->hasPermission("keepinventory.*") {
+              if ($sender->hasPermission("keepinventory.*")) {
                 
                 if (!$args[1]) {
 
